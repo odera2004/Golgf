@@ -1,0 +1,93 @@
+/* About.css */
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+  }
+  
+  .hero .btn {
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 50px;
+  }
+  
+  /* About Section */
+  .about h2 {
+    font-size: 2.5rem;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Services Section */
+  .services {
+    background: #f9f9f9;
+  }
+  
+  .services h2 {
+    font-size: 2.5rem;
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out;
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #2575fc;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .contact .btn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 30px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #222;
+    padding: 20px;
+    font-size: 1rem;
+  }
+  

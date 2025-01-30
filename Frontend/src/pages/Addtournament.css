@@ -1,0 +1,41 @@
+/* AddTournament.css */
+.tournament-form-container {
+    background-color: #f8f9fa; /* Light background */
+    border: 1px solid #ced4da; /* Subtle border */
+    padding: 20px; /* Increased padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .tournament-form-title {
+    color: #007bff; /* Primary color for title */
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .tournament-form .form-group { /* Style form groups */
+    margin-bottom: 15px;
+  }
+  
+  .tournament-form label {
+    font-weight: 500; /* Slightly bolder labels */
+    color: #343a40; /* Darker label color */
+  }
+  
+  .tournament-form .form-control,
+  .tournament-form .form-select {
+    border: 1px solid #ced4da;
+    box-shadow: none; /* Remove default box shadow */
+    padding: 10px; /* Adjusted padding */
+  }
+  
+  .tournament-form .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    font-weight: 500;
+  }
+  
+  .tournament-form .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }

@@ -1,0 +1,36 @@
+/* Navbar.css */
+.navbar {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  padding: 12px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-item {
+  margin: 0 10px;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  font-size: 16px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffde59 !important;
+  transform: scale(1.1);
+}
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1);
+}

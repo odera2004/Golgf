@@ -1,0 +1,110 @@
+/* ContactUs.css - Elegant & Professional Design 🚀 */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(120deg, #004085, #007bff);
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 1.3rem;
+}
+
+/* Contact Info */
+.contact-info {
+  padding: 80px 20px;
+}
+
+.contact-info h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.list-unstyled {
+  font-size: 1.1rem;
+  text-align: center;
+  list-style: none;
+}
+
+.list-unstyled li {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.list-unstyled i {
+  margin-right: 10px;
+  font-size: 1.3rem;
+  color: #007bff;
+}
+
+/* Map */
+.map {
+  padding: 50px 0;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  .contact-info h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact-info p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .contact-info h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-info p {
+    font-size: 0.9rem;
+  }
+}
