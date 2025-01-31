@@ -15,7 +15,7 @@ export const TournamentProvider = ({ children }) => {
 
   // ================================ PLAYERS =====================================
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/players", {
+    fetch("https://golgf.onrender.com/players", {
       method: "GET",
       headers: {
         "Content-type": "application/json",
@@ -31,7 +31,7 @@ export const TournamentProvider = ({ children }) => {
   // Fetch Tournaments
   console.log("hello",tournaments)
   useEffect(() => {
-    fetch("http://127.0.0.1:5000/tournaments", {
+    fetch("https://golgf.onrender.com/tournaments", {
       method: "GET",
       headers: {
         "Content-type": "application/json",
@@ -47,7 +47,7 @@ export const TournamentProvider = ({ children }) => {
   // Add Tournament
   const addTournament = (name, location, date, player_id) => {
     toast.loading("Adding tournament ...");
-    fetch("http://127.0.0.1:5000/tournaments", {
+    fetch("https://golgf.onrender.com/tournaments", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
@@ -79,7 +79,7 @@ export const TournamentProvider = ({ children }) => {
 const updateTournament = (id, name, location, date) => {
   toast.loading("Updating tournament ...");
 
-  fetch(`http://127.0.0.1:5000/tournament/${id}`, {
+  fetch(`https://golgf.onrender.com/tournament/${id}`, {
     method: "PUT",
     headers: {
       "Content-type": "application/json",
@@ -113,7 +113,7 @@ const updateTournament = (id, name, location, date) => {
   // Delete Tournament
   const deleteTournament = (id) => {
     toast.loading("Deleting tournament ...");
-    fetch(`http://127.0.0.1:5000/tournament/${id}`, {
+    fetch(`https://golgf.onrender.com/tournament/${id}`, {
       method: "DELETE",
       headers: {
         "Content-type": "application/json",
